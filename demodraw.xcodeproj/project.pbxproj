@@ -14,6 +14,7 @@
 		521E5446299DFC2100B832AF /* demodrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E5445299DFC2100B832AF /* demodrawTests.swift */; };
 		521E5450299DFC2100B832AF /* demodrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E544F299DFC2100B832AF /* demodrawUITests.swift */; };
 		521E5452299DFC2100B832AF /* demodrawUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521E5451299DFC2100B832AF /* demodrawUITestsLaunchTests.swift */; };
+		521E545F299DFDAF00B832AF /* carro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 521E545E299DFDAF00B832AF /* carro.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		521E544B299DFC2100B832AF /* demodrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demodrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521E544F299DFC2100B832AF /* demodrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demodrawUITests.swift; sourceTree = "<group>"; };
 		521E5451299DFC2100B832AF /* demodrawUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demodrawUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		521E545E299DFDAF00B832AF /* carro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = carro.jpeg; path = ../../../../../Downloads/carro.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		521E5433299DFC1D00B832AF /* demodraw */ = {
 			isa = PBXGroup;
 			children = (
+				521E545E299DFDAF00B832AF /* carro.jpeg */,
 				521E5434299DFC1D00B832AF /* demodrawApp.swift */,
 				521E5436299DFC1D00B832AF /* ContentView.swift */,
 				521E5438299DFC2100B832AF /* Assets.xcassets */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521E545F299DFDAF00B832AF /* carro.jpeg in Resources */,
 				521E543C299DFC2100B832AF /* Preview Assets.xcassets in Resources */,
 				521E5439299DFC2100B832AF /* Assets.xcassets in Resources */,
 			);
@@ -425,6 +429,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +459,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
